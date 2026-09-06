@@ -6,13 +6,13 @@ Hi, I'm Austin — a Geography (GIS) major currently building data science skill
 
 ## Projects
 
-### 🌍 Final Project: U.S. Air Pollution Prediction
+### 🌍 [Final Project: U.S. Air Pollution Prediction](https://github.com/austinchen0503/data-science/tree/main/air-pollution-prediction)
 
-Regression model predicting Air Quality Index (AQI) using EPA/Kaggle monitoring data across California, Texas, New York, and Arizona, incorporating a spatial/geographic perspective from my GIS background. Compared Linear Regression against Random Forest using a time-based train/test split to avoid data leakage.
+Predicts NO2 Air Quality Index from other pollutant readings and geographic location across California, Texas, New York, and Arizona (2010–2015 EPA data). Compared Linear Regression against Random Forest using a time-based train/test split to avoid data leakage.
 
-**Key findings:** CO AQI dominated feature importance (~75%); Random Forest (R² = 0.550) outperformed a geography-naive linear regression baseline (R² = 0.408).
+**Key findings:** adding geography (state) meaningfully improved prediction, with the effect concentrated almost entirely in California; Random Forest (R² = 0.550) outperformed linear regression with pollutants only (R² = 0.408).
 
-**Skills:** regression, Random Forest, geospatial feature engineering, time-based data splitting
+**Skills:** regression, Random Forest, geospatial feature engineering, time-based data splitting, residual analysis
 
 ### 🏠 [California Housing Price Prediction](https://github.com/austinchen0503/data-science/blob/main/california-housing-random-forest)
 
