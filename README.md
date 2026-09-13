@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-Hi, I'm Austin — a Geography (GIS) major currently building data science skills through UCLA Extension's Data Science program, working toward an MSDS application (Fall 2027).
+Hi, I'm Austin — a Geography (GIS) major who completed UCLA Extension's Data Science certificate coursework (Introduction to Data Science, Data Science Fundamentals, and Linear Algebra — all A+), working toward an MSDS application (Fall 2027).
 
 👉 **Start here:** my primary project is the Final Project below (U.S. Air Pollution Prediction), combining regression modeling with a GIS/spatial perspective.
 
@@ -64,4 +64,4 @@ Coursework applying formal statistical inference — confidence intervals, one-s
 
 ## Background
 
-B.A. in Geography (GIS focus), National Taiwan University. Currently completing UCLA Extension's Data Science certificate (R, Python, statistics, machine learning, linear algebra), working toward an MSDS application for Fall 2027.
+B.A. in Geography (GIS focus), National Taiwan University. Completed UCLA Extension's Data Science certificate coursework — Introduction to Data Science (A+), Data Science Fundamentals (A+), and Linear Algebra (A+) — working toward an MSDS application for Fall 2027.
