@@ -48,6 +48,21 @@ via accuracy and ROC/AUC.
 
 **Skills:** scikit-learn, logistic regression, classification metrics, feature encoding
 
+### 🩺 [Diabetes Progression: Regression Model Comparison](./diabetes-regression)
+
+Compared linear regression, k-nearest neighbors, and LASSO on scikit-learn's
+diabetes dataset (442 patients, 10 baseline measurements). Every hyperparameter —
+`k` for KNN, `alpha` for LASSO — is chosen by cross-validation on the training
+set only, so the test set stays untouched until final evaluation.
+
+LASSO with a cross-validated alpha won on both counts: best test R² (0.471) using
+only 7 of 10 features. The features it zeroed out turned out to be collinear
+cholesterol measurements, which says more about redundancy in the data than about
+medical irrelevance.
+
+**Skills:** scikit-learn, regularization (LASSO), KNN regression, cross-validated
+hyperparameter tuning, avoiding test-set leakage
+
 ### 📊 [EDA: Online Learning Platform](./eda-online-learning)
 
 Exploratory analysis of a 500-student online learning dataset — missing-value
