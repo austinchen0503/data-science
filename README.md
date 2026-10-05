@@ -1,40 +1,66 @@
 # Data Science Portfolio
 
-Hi, I'm Austin — a Geography (GIS) major who completed UCLA Extension's Data Science certificate coursework (Introduction to Data Science, Data Science Fundamentals, and Linear Algebra — all A+), working toward an MSDS application (Fall 2027).
+Hi, I'm Austin. I have a background in Geography (GIS) from National Taiwan
+University and am currently building a stronger foundation in data science
+through UCLA Extension, working toward an MSDS application (Fall 2027).
 
-👉 **Start here:** my primary project is the Final Project below (U.S. Air Pollution Prediction), combining regression modeling with a GIS/spatial perspective.
+My current focus is statistical modeling, machine learning, and working with
+large and spatial datasets.
 
-## Projects
+👉 **Start here:** [Air Pollution Prediction](./air-pollution-prediction) — my
+final project, combining regression modeling with a spatial perspective from my
+GIS background.
 
-### 🌍 [Final Project: U.S. Air Pollution Prediction](https://github.com/austinchen0503/data-science/tree/main/air-pollution-prediction)
+---
 
-Predicts NO2 Air Quality Index from other pollutant readings and geographic location across California, Texas, New York, and Arizona (2010–2015 EPA data). Compared Linear Regression against Random Forest using a time-based train/test split to avoid data leakage.
+## Featured Project
 
-**Key findings:** adding geography (state) meaningfully improved prediction, with the effect concentrated almost entirely in California; Random Forest (R² = 0.550) outperformed linear regression with pollutants only (R² = 0.408).
+### 🌍 [Air Pollution Prediction — NO₂ AQI](./air-pollution-prediction)
 
-**Skills:** regression, Random Forest, geospatial feature engineering, time-based data splitting, residual analysis
+Predicted NO₂ Air Quality Index from co-pollutant readings (O₃, SO₂, CO) across
+73,516 station-days in four states (EPA data, 2010–2015). Used a **time-based**
+train/test split rather than a random one to avoid leakage between adjacent days,
+then tested whether adding geographic location improves prediction.
 
-### 🏠 [California Housing Price Prediction](https://github.com/austinchen0503/data-science/blob/main/california-housing-random-forest)
+It does — R² rose from 0.408 (pollutants only) to 0.550 (Random Forest + state) —
+but the gain concentrated almost entirely in California rather than spreading
+evenly across states. CO AQI dominated feature importance at roughly 75%.
 
-Supervised regression project predicting median house values from 1990 California census data. Covers data imputation, feature engineering (categorical encoding, derived variables), feature scaling, and Random Forest regression with train/test evaluation and variable importance analysis.
+**Skills:** regression, Random Forest, time-aware validation, residual analysis,
+feature importance
 
-**Skills:** R, randomForest, data imputation, feature engineering, model evaluation (RMSE)
+---
 
-### 🎯 [Logistic Regression: Customer Churn Prediction](https://github.com/austinchen0503/data-science/blob/main/logistic-regression-churn)
+## Other Projects
 
-Built a logistic regression model to predict customer churn using scikit-learn. Includes one-hot encoding, train/test split, coefficient interpretation, and model evaluation (accuracy, ROC/AUC).
+### 🏠 [California Housing: Random Forest (R)](./california-housing-random-forest)
+
+Regression analysis of California housing prices using Random Forest in R, with
+a written report covering model selection and interpretation.
+
+**Skills:** R, Random Forest, regression, model evaluation
+
+### 🎯 [Logistic Regression: Customer Churn](./logistic-regression-churn)
+
+Logistic regression model predicting customer churn with scikit-learn. Includes
+one-hot encoding, train/test split, coefficient interpretation, and evaluation
+via accuracy and ROC/AUC.
 
 **Skills:** scikit-learn, logistic regression, classification metrics, feature encoding
 
-### 📊 [EDA: Online Learning Platform](https://github.com/austinchen0503/data-science/blob/main/eda-online-learning)
+### 📊 [EDA: Online Learning Platform](./eda-online-learning)
 
-Exploratory data analysis on a 500-student online learning dataset. Covers data cleaning (handling missing values), univariate/bivariate analysis, and visualizations (histograms, scatter plots, box plots) to identify what drives student performance.
+Exploratory analysis of a 500-student online learning dataset — missing-value
+handling, univariate and bivariate analysis, and visualization to identify what
+drives student performance.
 
 **Skills:** pandas, seaborn, matplotlib, data cleaning, groupby analysis
 
-### 🔤 [Introduction to Data Science (R)](https://github.com/austinchen0503/data-science/blob/main/intro-data-science-r)
+### 🔤 [Introduction to Data Science (R)](./intro-data-science-r)
 
-Parallel coursework covering core data science workflows in R — SQL querying, data reshaping, grouped operations, and visualization — complementing the Python-focused work in my main program.
+Parallel coursework covering core data science workflows in R — SQL querying,
+data reshaping, grouped operations, and visualization — complementing the
+Python-focused work in my main program.
 
 **Skills:** R, sqldf, dplyr, data reshaping, data visualization
 
@@ -42,26 +68,43 @@ Parallel coursework covering core data science workflows in R — SQL querying, 
 
 ## GIS Background — NTU Coursework
 
-### 🗺️ [Taiwan Air Quality Analysis](https://github.com/austinchen0503/data-science/blob/main/taiwan-air-quality)
+### 🗺️ [Taiwan Air Quality Analysis](./taiwan-air-quality)
 
-Midterm and final exam projects from my GIS programming coursework at National Taiwan University — nearest-station spatial search, SQL-based data analysis, and geospatial visualization (geopandas/folium) of air quality monitoring data. Directly connects to my current final project on U.S. EPA pollution prediction.
+GIS programming coursework at National Taiwan University — nearest-station
+spatial search, SQL analysis against a SQLite database, and geospatial
+visualization (geopandas/folium) of monitoring data. Includes a custom `AirObj`
+class in `MyLib.py`. Directly connects to my current EPA pollution work.
 
 **Skills:** Python, SQL, geopandas, folium, object-oriented programming
 
-### 📐 [Spatial Analysis (R)](https://github.com/austinchen0503/data-science/blob/main/spatial-analysis-r)
+### 📐 [Spatial Analysis (R)](./spatial-analysis-r)
 
-Coursework applying formal spatial statistics — distance calculations, population-weighted centroids, and point pattern analysis (Quadrat Analysis with chi-square testing for spatial clustering) — using R's `sf` and `spatstat` packages.
+Formal spatial statistics — distance calculations, population-weighted centroids,
+and point pattern analysis (Quadrat Analysis with chi-square testing for spatial
+clustering) — using R's `sf` and `spatstat`.
 
 **Skills:** R, sf, spatstat, spatial statistics, hypothesis testing
 
-### 📈 [Social Statistics (Stata)](https://github.com/austinchen0503/data-science/blob/main/social-statistics-stata)
+### 📈 [Social Statistics (Stata)](./social-statistics-stata)
 
-Coursework applying formal statistical inference — confidence intervals, one-sample and two-sample hypothesis testing — using Stata on a national social survey dataset (Taiwan Social Change Survey).
+Statistical inference — confidence intervals, one-sample and two-sample
+hypothesis testing — using Stata on the Taiwan Social Change Survey.
 
 **Skills:** Stata, statistical inference, hypothesis testing, confidence intervals
 
 ---
 
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
+R projects additionally require: `sf`, `spatstat`, `dplyr`, `sqldf`, `randomForest`
+
+---
+
 ## Background
 
-B.A. in Geography (GIS focus), National Taiwan University. Completed UCLA Extension's Data Science certificate coursework — Introduction to Data Science (A+), Data Science Fundamentals (A+), and Linear Algebra (A+) — working toward an MSDS application for Fall 2027.
+B.A. in Geography (GIS focus), National Taiwan University. Currently studying
+data science, Python, SQL, and machine learning fundamentals.
