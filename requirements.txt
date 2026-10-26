@@ -6,3 +6,4 @@ seaborn>=0.12
 geopandas>=0.14
 folium>=0.15
 jupyter>=1.0
+requests>=2.31
