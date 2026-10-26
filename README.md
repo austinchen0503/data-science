@@ -121,5 +121,5 @@ R projects additionally require: `sf`, `spatstat`, `dplyr`, `sqldf`, `randomFore
 
 ## Background
 
-B.A. in Geography (GIS focus), National Taiwan University. Currently studying
+B.S. in Geography (GIS focus), National Taiwan University. Currently studying
 data science, Python, SQL, and machine learning fundamentals.
