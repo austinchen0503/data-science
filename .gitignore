@@ -11,3 +11,5 @@ env/
 .Rproj.user/
 .vscode/
 .idea/
+WQ.db
+*.db
