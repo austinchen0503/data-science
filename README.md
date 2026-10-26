@@ -2,7 +2,7 @@
 
 Hi, I'm Austin. I have a background in Geography (GIS) from National Taiwan
 University and am currently building a stronger foundation in data science
-through UCLA Extension, working toward an MSDS application (Fall 2027).
+through UCLA Extension.
 
 My current focus is statistical modeling, machine learning, and working with
 large and spatial datasets.
