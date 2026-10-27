@@ -107,6 +107,10 @@ hypothesis testing — using Stata on the Taiwan Social Change Survey.
 
 **Skills:** Stata, statistical inference, hypothesis testing, confidence intervals
 
+### 💧 [Reservoir Water Quality Database](./water-quality-database)
+...
+**Skills:** Python, SQLite, SQL aggregation, API ingestion, data quality checks
+
 ---
 
 ## Setup
